@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakir Hussain Shaik - Full Stack Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link to the updated CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <nav class="container">
+            <a href="#hero" class="logo">Zakir Hussain Shaik</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience-work" class="nav-link">Experience</a></li>
+                <li><a href="#interests-recognition" class="nav-link">Interests</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-button" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="full-height">
+             <div class="hero-background"></div>
+             <div class="container hero-container">
+                 <div class="hero-left animate-on-load animate-slide-in-left">
+                     <div class="hero-image">
+                         <img src="images/profile-photo.webp" alt="Professional photo of Zakir Hussain Shaik">
+                     </div>
+                     <a href="https://drive.google.com/file/d/17KfmhLAIoR3gm86cRIWVwHyZxqg63_9y/view?usp=sharing.pdf" download="Zakir_Hussain_Shaik_Resume.pdf" class="cta-button resume-button">
+                         <i class="fas fa-download"></i> Download Resume
+                     </a>
+                     <div class="hero-social">
+                         <a href="https://www.linkedin.com/in/zakir-hussain-shaik/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                         <a href="https://github.com/Mr-Zakir789" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" title="GitHub"><i class="fab fa-github"></i></a>
+                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zakirhussainshaik2002@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Send Email via Gmail" title="Email (Gmail)"><i class="fas fa-envelope"></i></a>
+                     </div>
+                 </div>
+                 <div class="hero-right animate-on-load animate-fade-in-up">
+                     <h1 class="hero-greeting">
+                         <span class="wave">👋</span> Hi, I'm <span class="highlight-name">Zakir!</span>
+                     </h1>
+                     <p class="subtitle">Full Stack Developer</p>
+                     <p class="description">Turning ideas into fast, functional web apps with clean code and user-focused design.</p>
+                     <a href="#experience-work" class="cta-button view-work-button">View My Work</a>
+                 </div>
+             </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+             <div class="container">
+                 <h2 class="animate-on-scroll animate-fade-in-up">About Me</h2>
+                 <div class="about-content animate-on-scroll animate-fade-in-up">
+                    <p>I’m Zakir Hussain Shaik, a dedicated Full Stack Developer with a strong command of HTML, CSS, JavaScript, Java, MySQL, MongoDB, VSCode, and GitHub. I specialize in crafting high-performance, scalable web applications, transforming complex problems into seamless, user-centric solutions. With a passion for continuous learning and a commitment to clean, efficient code, I strive to deliver robust, impactful digital experiences that drive real-world value.</p>
+                 </div>
+             </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="animate-on-scroll animate-fade-in-up">Technical Skills</h2>
+                <div class="skills-logo-cloud animate-on-scroll animate-fade-in-up">
+                    <div class="skill-item"> <i class="fab fa-html5 skill-icon html5" title="HTML5"></i> </div>
+                    <div class="skill-item"> <i class="fab fa-css3-alt skill-icon css3" title="CSS3"></i> </div>
+                    <div class="skill-item"> <i class="fab fa-js skill-icon js" title="JavaScript"></i> </div>
+                    <div class="skill-item"> <i class="fab fa-java skill-icon java" title="Java"></i> </div>
+                    <div class="skill-item"> <i class="fas fa-bolt skill-icon" title="RESTful API"></i> </div>
+                    <div class="skill-item"> <i class="fas fa-database skill-icon sql" title="MySQL"></i> </div>
+                    <div class="skill-item"> <i class="fas fa-leaf skill-icon mongodb" title="MongoDB"></i> </div>
+                    <div class="skill-item"> <i class="fab fa-github skill-icon github" title="GitHub"></i> </div>
+                    <div class="skill-item"> <i class="fas fa-code skill-icon vscode" title="VS Code"></i> </div>
+                    <div class="skill-item"> <i class="fab fa-git-alt skill-icon git" title="Git"></i> </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Work Section (Tabs) -->
+        <section id="experience-work">
+            <div class="container">
+                <h2 class="animate-on-scroll animate-fade-in-up">Experience & Work</h2>
+                <div class="tabs-container animate-on-scroll animate-fade-in-up">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="projects"><i class="fas fa-project-diagram"></i> Projects</button>
+                        <button class="tab-button" data-tab="education"><i class="fas fa-graduation-cap"></i> Education</button>
+                        <button class="tab-button" data-tab="certifications"><i class="fas fa-certificate"></i> Certifications</button>
+                    </div>
+                    <div class="tab-content-area">
+                        <!-- Projects Tab Content -->
+                        <div id="tab-projects" class="tab-content active">
+                             <h3>My Projects</h3>
+                            <div class="projects-grid">
+                                <div class="project-card">
+                                    <a href="#" target="_blank" rel="noopener noreferrer" class="project-image-link">
+                                        <div class="project-image-container"><img src="images/traffic-project.png" alt="Screenshot of Traffic Congestion Clearance System"><div class="project-overlay"><span class="overlay-text">View Demo</span></div></div>
+                                    </a>
+                                    <div class="project-info">
+                                        <h4>Traffic Congestion Clearance System</h4>
+                                        <p>Artificial Intelligence, Machine Learning, RGB to GrayScale Conversion, Guassian Blur and Cutting Edge Technologies.</p>
+                                        <a href="#" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repo"><i class="fab fa-github"></i> View Code</a>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                     <a href="#" target="_blank" rel="noopener noreferrer" class="project-image-link">
+                                        <div class="project-image-container"><img src="images/job-project.gif" alt="Animated GIF of Job Profile Management project"><div class="project-overlay"><span class="overlay-text">View Demo</span></div></div>
+                                     </a>
+                                    <div class="project-info">
+                                        <h4>Job Profile Management</h4>
+                                        <p>HTML, CSS, JavaScript, SQL.</p>
+                                        <a href="#" target="_blank" rel="noopener noreferrer" class="github-link" title="GitHub Repo"><i class="fab fa-github"></i> View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Education Tab Content -->
+                        <div id="tab-education" class="tab-content">
+                            <h3>Education</h3>
+                            <div class="detail-list">
+                                <div class="detail-item education-item">
+                                    <div class="detail-text">
+                                        <h4>Bachelor of Technology</h4>
+                                        <p><strong>Kakinada Institute of Engineering and Technology</strong> | Kakinada | 2024 </p>
+                                        <p>Computer Science and Engineering (Artificial Intelligence).</p>
+                                    </div>
+                                    <div class="detail-logo">
+                                        <img src="images/kiet-logo.png" alt="Kakinada Institute of Engineering and Technology Logo">
+                                    </div>
+                                </div>
+                                <div class="detail-item education-item">
+                                    <div class="detail-text">
+                                        <h4>Intermediate</h4>
+                                        <p><strong>Narayana Junior College</strong> | Vijayawada | 2020 </p>
+                                        <p>Maths, Physics & Chemistry.</p>
+                                    </div>
+                                    <div class="detail-logo">
+                                        <img src="images/narayana-logo.png" alt="Narayana Junior College Logo">
+                                    </div>
+                                </div>
+                                <div class="detail-item education-item">
+                                    <div class="detail-text">
+                                        <h4>SSC</h4>
+                                        <p><strong>A.P Model School</strong> | Durgi | 2018 </p>
+                                    </div>
+                                    <div class="detail-logo">
+                                        <img src="images/model-logo.png" alt="A.P Model School Logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Certifications Tab Content -->
+                        <div id="tab-certifications" class="tab-content">
+                            <h3>Certifications</h3>
+                            <div class="detail-list">
+                                <div class="detail-item">
+                                    <h4><i class="fas fa-award"></i> Azure Fundamentals </h4>
+                                    <p><strong>Microsoft Certified</strong> | Issued: NOV-2022 </p>
+                                </div>
+                                <div class="detail-item">
+                                    <h4><i class="fas fa-award"></i> Micro-Certification - Welcome to ServiceNow </h4>
+                                    <p><strong>ServiceNow Certified</strong> | Issued: DEC-2023 </p>
+                                </div>
+                                <div class="detail-item">
+                                    <h4><i class="fas fa-award"></i> Java Full Stack </h4>
+                                    <p><strong>Vtalent</strong> | Issued: MAR-2025 </p> <!-- Double-check date -->
+                                </div>
+                                <div class="detail-item">
+                                    <h4><i class="fas fa-award"></i> 26th National Youth Festival </h4>
+                                    <p><strong>The Ministry of Youth Affairs & Sports in collaboration with the Government of Karnataka</strong> | Issued: JAN-2023 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End tab-content-area -->
+                </div> <!-- End tabs-container -->
+            </div> <!-- End container -->
+        </section> <!-- End experience-work -->
+
+        <!-- Interests & Recognition Section (Restructured) -->
+        <section id="interests-recognition">
+             <div class="container">
+                 <h2 class="animate-on-scroll animate-fade-in-up">Interests & Recognition</h2>
+
+                 <!-- Hobbies Subsection -->
+                 <div class="hobbies-section animate-on-scroll animate-fade-in-up">
+                     <h3>My Hobbies</h3>
+                     <div class="hobbies-list">
+                         <div class="hobby-item">
+                             <i class="fas fa-car"></i>
+                             <div class="hobby-text">
+                                 <h4>Travelling</h4>
+                                 <p>Enjoying Greenery & Landscapes.</p>
+                             </div>
+                         </div>
+                         <div class="hobby-item">
+                             <i class="fas fa-utensils"></i>
+                             <div class="hobby-text">
+                                 <h4>Cooking</h4>
+                                 <p>Preparing Delicious Food.</p>
+                             </div>
+                         </div>
+                         
+                     </div>
+                 </div>
+
+                 <!-- Achievements Subsection (Sliders) -->
+                 <div class="achievements-section animate-on-scroll animate-fade-in-up">
+                    <h3>Achievements Gallery</h3>
+                    <div class="achievement-sliders-container">
+
+                        <!-- Slider 1 -->
+                        <div class="achievement-carousel-container">
+                            <div class="achievement-carousel-track" data-carousel-id="1">
+                                <div class="achievement-carousel-slide">
+                                    <img src="images/nss-award.jpg" alt="University Level Best Nss Volunteer Felicitation Photo">
+                                    <div class="achievement-carousel-caption">Honored as Best NSS Volunteer by JNTUK VC, Dr. G.V.R. Prasada Raju & University NSS Coordinator, Dr. Shyam.</div>
+                                </div>
+                                <div class="achievement-carousel-slide">
+                                    <img src="images/youth-festival.jpg" alt="Attented Youth Summit With Higher Officials Of Karnataka">
+                                    <div class="achievement-carousel-caption">Memorable experience at the 26th National Youth Festival alongside state CM, Governor & Union Minister Anurag Thakur.</div>
+                                </div>
+                                <div class="achievement-carousel-slide">
+                                    <img src="images/kiet.jpg" alt="College Nss Parade">
+                                    <div class="achievement-carousel-caption">Honoring the Independence Day parade guest at KIET College (NSS).</div>
+                                </div>
+                            </div>
+                            <!-- Optional: Add Nav Dots/Buttons per slider if needed -->
+                        </div>
+
+                        <!-- Slider 2 -->
+                        <div class="achievement-carousel-container">
+                            <div class="achievement-carousel-track" data-carousel-id="2">
+                                <div class="achievement-carousel-slide">
+                                    <img src="images/docket-run.jpg" alt="Photo With CEO of DocketRun Company">
+                                    <div class="achievement-carousel-caption">Meeting Ajay Kabadi, Founder & CEO of AI tech startup DocketRun.</div>
+                                </div>
+                                <div class="achievement-carousel-slide">
+                                    <img src="images/map-my-india.jpg" alt="Photo with Product Manager of Map My India">
+                                    <div class="achievement-carousel-caption">Great interaction with Kalaivanan Sundaram, Product Manager at MapmyIndia.</div>
+                                </div>
+                                <div class="achievement-carousel-slide">
+                                    <img src="images/face-of-kiet.jpg" alt="Photo With Kietians">
+                                    <div class="achievement-carousel-caption">Recognized as the "Face of KIET" for the 2020-2024 Batch.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            
+                     </div>
+                 </div>
+             </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="animate-on-scroll animate-fade-in-up">Get In Touch</h2>
+                <div class="contact-content animate-on-scroll animate-fade-in-up">
+                    <p>Feel free to reach out! Whether you have a question or just want to connect, I'm open to discussions about opportunities, projects, or technology.</p>
+                    <div class="contact-methods">
+                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zakirhussainshaik2002@gmail.com" target="_blank" rel="noopener noreferrer" class="cta-button contact-button email-button">
+                             <i class="fas fa-envelope"></i> Send Email
+                         </a>
+                         <a href="https://www.linkedin.com/in/zakir-hussain-shaik/" target="_blank" rel="noopener noreferrer" class="cta-button contact-button linkedin-button">
+                             <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-social">
+                 <a href="https://www.linkedin.com/in/zakir-hussain-shaik/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Mr-Zakir789" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zakirhussainshaik2002@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Send Email via Gmail" title="Email (Gmail)"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; <span id="current-year"></span> Zakir Hussain Shaik. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
